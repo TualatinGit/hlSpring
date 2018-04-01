@@ -23,7 +23,7 @@ public class MyController {
 
 	@hlUrl(url = "/doStart")
 	public HlPageMode doStart(HttpServletRequest request,HttpServletResponse response) {
-		System.out.println("doStart n);
+		System.out.println("doStart nn);
 		HlPageMode pageModel = new HlPageMode(PageModelType.JSON.getValue());
 		int reData = myService.myServiceSay();
 		pageModel.setData(reData);
